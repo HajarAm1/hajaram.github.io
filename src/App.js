@@ -1,15 +1,16 @@
 import React from 'react';
+import MiddleRight from './MiddleRightSide';
 import Left from './LeftSideBar';
-import Right from './RigthSideBar';
 
 
 function App() {
   return (
-
-    <div className='app'>
-      <Left />
-      <Right />
-
+    <div className='row'>
+      <div className="leftBar">
+        <Left />
+      </div>
+      <div className='rightside'>
+        <MiddleRight /></div>
     </div>
   );
 }

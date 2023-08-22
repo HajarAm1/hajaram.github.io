@@ -3,15 +3,24 @@ import "./App.css";
 
 function Skills() {
     return (
-        <div className="rightBar">
-            <p>
-                <h4 className="spaceleft">Programming skills:</h4>
-                <h5 className="spaceleft" >Knowledge in: <br />
-                    <p className="nonbold">Java، Python, Mongodb, SQL, REACT, HTML5, CSS,Bootstrap4, JSP,
-                        <br />Selenium, Pywinauto, Jira, Jenkins, GitHub, Git,<br />
-                        ERD, UML, CLASS DIAGRAM, MVC design pattern.</p><br />Familiarity with:</h5>
-                <h5 className="spaceleft"><h5 className="nonbold">JS, C, C#</h5></h5> </p>
-            <h4 className="spaceleft" >Organizational Skills: <br /><h5 className="nonbold">Agile and Scrum, team player, work well under pressure.</h5></h4>
+        <div className="borderDiv">
+            <h3 className="bold">Skills</h3>
+            <div >
+                <div className="spaceLeft">Agile and Scrum, team player, work well under pressure.</div>
+                <div className="innerDivBorder">
+                    Knowledge in:
+                    <div className="nestedInnerBorder">
+                        •	Java, JSP، Python, Pywinauto, pytest, HTML5, CSS, Bootstrap4, Selenium<br />
+                        •	Mongodb, SQL, ERD, UML, CLASS DIAGRAM, MVC design pattern.<br />
+                        •	Jira, Jenkins, GitHub, Git<br />
+                        •	Eclipse, Visual Studio Code, pycharm, microsoft sql server management studio<br />
+                    </div>
+                </div>
+
+                <div className="innerDivBorder">Familiarity with:</div>
+                <div className="nestedInnerBorder">C, C#, JS, PHP, NoSql, JSON React, android, networking.</div>
+            </div>
+            <br />
         </div>
 
 

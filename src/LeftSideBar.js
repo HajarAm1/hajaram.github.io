@@ -7,11 +7,11 @@ import PersonalDetails from "./PesronalDetails";
 
 function Left() {
     return (
-        <div className="leftBar">
+        <div >
             <h2 className="links"> Hajar Amara</h2>
             <Image1 />
             <PersonalDetails />
-
+            <br />
         </div>
     );
 }
