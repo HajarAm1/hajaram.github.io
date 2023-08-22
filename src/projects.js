@@ -7,14 +7,8 @@ function Projects() {
             <h3 className="bold">Projects <br /></h3>
             <div className="innerDivBorder">
                 <h5 > My Profile</h5>
-                <a className="linkProj" href="https://github.com/HajarAmara/pacmanGame" >view github link</a>
+                <a className="linkProj" href="https://github.com/HajarAm1/hajaram.github.io/" >Open this project code via this link</a>
                 <br /> <br />
-                <h5 > Convert Files</h5>
-                <div>
-                    describe
-                </div>
-                <a className="linkProj" href="https://github.com/HajarAmara/pacmanGame" >view github link</a>
-                <br />
             </div>
         </div>
     );
