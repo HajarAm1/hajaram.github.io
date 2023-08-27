@@ -13,7 +13,6 @@ function PersonalDetails() {
                     <a className="links" href="https://www.linkedin.com/in/hajar-amara-193292b3/"><FaLinkedinIn /></a>
                     <a className="links" href="https://github.com/HajarAmara"><FaGithub /></a>
                 </div>
-                {/* <a className="downloadLink" href="./HajarAmaraCV.docx" download="HajarAmaraCV.docx">Download CV</a> */}
             </div >
         </div >
     );
